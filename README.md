@@ -8,4 +8,6 @@ First step to creating a panorama is align two images to process. To do this, th
 
 Next, detect the matching points for two inputh images. Similary finding process also it can explaining like, it suggests that there are repetitive patterns in your images. Thus, the feature points that are related to each other in the two images, ie where the image matches, are found. I used BFMatcher to do this.
 
-Other process is applying the RANSAC method to estimate homography. Next one is wrapping on one image, while keeping one as reference. One of the photographs is kept as a reference, and the other is extracted using the homogram matrix calculated in the previous step. Thus, the necessary information for the alignment of the pictures is collected. 
+Other process is applying the RANSAC method to estimate homography. Next one is wrapping on one image, while keeping one as reference. One of the photographs is kept as a reference, and the other is extracted using the homogram matrix calculated in the previous step. Thus, the necessary information for the alignment of the pictures is collected. Stitching process is completed at this stage. Finally, a border is prepared in accordance with the created picture and the process is completed.
+
+# Results
