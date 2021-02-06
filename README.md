@@ -12,3 +12,6 @@ Other process is applying the RANSAC method to estimate homography. Next one is 
 
 # Results
 ![alt text](https://github.com/bakkyn/Image-Alignment-using-OpenCV/blob/main/results/1.png)
+![alt text](https://github.com/bakkyn/Image-Alignment-using-OpenCV/blob/main/results/2.png)
+![alt text](https://github.com/bakkyn/Image-Alignment-using-OpenCV/blob/main/results/3.png)
+![alt text](https://github.com/bakkyn/Image-Alignment-using-OpenCV/blob/main/results/4.png)
