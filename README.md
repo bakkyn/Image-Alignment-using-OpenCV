@@ -10,7 +10,7 @@ Next, detect the matching points for two inputh images. Similary finding process
 
 Other process is applying the RANSAC method to estimate homography. Next one is wrapping on one image, while keeping one as reference. One of the photographs is kept as a reference, and the other is extracted using the homogram matrix calculated in the previous step. Thus, the necessary information for the alignment of the pictures is collected. Stitching process is completed at this stage. Finally, a border is prepared in accordance with the created picture and the process is completed.
 
-# Results
+# Result
 ![alt text](https://github.com/bakkyn/Image-Alignment-using-OpenCV/blob/main/results/1.png)
 ![alt text](https://github.com/bakkyn/Image-Alignment-using-OpenCV/blob/main/results/2.png)
 ![alt text](https://github.com/bakkyn/Image-Alignment-using-OpenCV/blob/main/results/3.png)
